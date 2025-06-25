@@ -78,3 +78,6 @@ First you have to install the uBlox Center for your system from the following we
 1. For connecting the GPS receiver with the ublox center press the button "Connect".
 2. Press "View" and then "Configuration View". Choose the "PRT (Ports)" for the Baudrate and then klick to "SEND".
 3. Choose the new Baud rate as your new connection parameters.
+
+![UBLOX Betaflight Firmware](./ublox.png)
+
