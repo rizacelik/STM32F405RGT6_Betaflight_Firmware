@@ -63,13 +63,13 @@
 - Select which channels the servos will use from the Servo tab and save.
 
 ### ⚙️ Set up your RC receiver.
-- Check that the signal cable of your receiver is connected to the A3 pin. Test your receiver by selecting the protocol of your RC transmitter.
+- Check that the signal cable of your receiver is connected to the **A3** pin. Test your receiver by selecting the protocol of your RC transmitter.
 
 ### ⚙️ GPS setup.
-- Check that the RX pin of the GPS module is connected to the P9 pin of the Flight Control Card and the GPS TX pin is connected to the P10 pin of the Flight Control Card. Open the betaflight Configurator software and check that GPS is selected under the sensor heading in UART1 from the PORT tab and that the GPS Baund value is suitable for your GPS module. Save and exit. If the GPS icon is red, this means that the GPS module has not yet received all the satellites. Wait a little, it will turn into a yellow icon when it does.
+- Check that the RX pin of the GPS module is connected to the **A9** pin of the Flight Control Card and the GPS TX pin is connected to the **A10** pin of the Flight Control Card. Open the betaflight Configurator software and check that GPS is selected under the sensor heading in **UART1** from the PORT tab and that the GPS Baund value is suitable for your GPS module. Save and exit. If the GPS icon is red, this means that the GPS module has not yet received all the satellites. Wait a little, it will turn into a yellow icon when it does.
 
 ### ⚙️ My GPS module is plugged in but it doesn't see it!.
-Applications like Ardupilot automatically configure the GPS module and change the GPS baud rate to 230000. The value 230000 is not available in flight control software like Betaflight and INAV and your GPS module is not detected.
+Applications like Ardupilot automatically configure the GPS module and change the GPS baud rate to **230000**. The value 230000 is not available in flight control software like Betaflight and INAV and your GPS module is not detected.
 
 ### 📦 How can I configurate the baudrate for all uBlox devices?
 First you have to install the uBlox Center for your system from the following website:
