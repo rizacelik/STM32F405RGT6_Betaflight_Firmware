@@ -58,7 +58,7 @@
 
 ## 🧪 Notes
 
-###⚙️ Motor and Servo Setup
+### ⚙️ Motor and Servo Setup
 - Select the flight type and ESC protocol you want to use from the Motor tab and save.
 - Select which channels the servos will use from the Servo tab and save.
 
